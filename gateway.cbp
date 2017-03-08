@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gateway" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Hardware/;Network/;Support file/;Data/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gateway" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gateway" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="base64StringEncoder.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="base64StringEncoder.h">
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="cJSON.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Support file/" />
+		</Unit>
+		<Unit filename="cJSON.h">
+			<Option virtualFolder="Support file/" />
+		</Unit>
+		<Unit filename="interrupt.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="interrupt.h">
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="makeJson.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="makeJson.h">
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="md5.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Support file/" />
+		</Unit>
+		<Unit filename="md5.h">
+			<Option virtualFolder="Support file/" />
+		</Unit>
+		<Unit filename="readWav.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="readWav.h">
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="resolveJson.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="resolveJson.h">
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="socket.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="socket.h">
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="sysinit.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="sysinit.h">
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="thread.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="thread.h">
+			<Option virtualFolder="Hardware/" />
+		</Unit>
+		<Unit filename="wgetDownload.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Unit filename="wgetDownload.h">
+			<Option virtualFolder="Network/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

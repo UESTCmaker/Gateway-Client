@@ -1,0 +1,385 @@
+# depslib dependency file v1.0
+1462711809 source:/home/pi/gateway/main.c
+	<wiringPi.h>
+	<stdlib.h>
+	"sysinit.h"
+	"makeJson.h"
+
+1461243166 source:/home/pi/gateway/test1.c
+	<wiringPi.h>
+	<stdlib.h>
+
+1459564983 source:/home/pi/wiringPi/wiringPi/wiringPi.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<poll.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	<fcntl.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/ioctl.h>
+	<asm/ioctl.h>
+	"softPwm.h"
+	"softTone.h"
+	"wiringPi.h"
+
+1459564983 /home/pi/wiringPi/wiringPi/softPwm.h
+
+1459564983 /home/pi/wiringPi/wiringPi/softTone.h
+
+1459564983 /home/pi/wiringPi/wiringPi/wiringPi.h
+
+1459564983 /home/pi/gateway/wiringPi.h
+
+1459564983 source:/home/pi/gateway/piHiPri.c
+	<sched.h>
+	<string.h>
+	"wiringPi.h"
+
+1461239547 source:/home/pi/gateway/piThread.c
+	<pthread.h>
+	"wiringPi.h"
+
+1459564983 source:/home/pi/gateway/wiringPi.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<poll.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	<fcntl.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/ioctl.h>
+	<asm/ioctl.h>
+	"softPwm.h"
+	"softTone.h"
+	"wiringPi.h"
+
+1459564983 /home/pi/gateway/softPwm.h
+
+1459564983 /home/pi/gateway/softTone.h
+
+1459564983 source:/home/pi/gateway/softPwm.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softPwm.h"
+
+1459564983 source:/home/pi/gateway/softTone.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softTone.h"
+
+1461851014 source:/home/pi/gateway/interrupt.c
+	"interrupt.h"
+	"thread.h"
+	<stdio.h>
+	<wiringPi.h>
+	<pthread.h>
+	<stdlib.h>
+
+1461837874 /home/pi/gateway/interrupt.h
+
+1461850740 /home/pi/gateway/thread.h
+
+1462779232 source:/home/pi/gateway/thread.c
+	"thread.h"
+	<stdio.h>
+	<pthread.h>
+	<sched.h>
+	<stdlib.h>
+
+1461417263 /home/pi/gateway/sysinit.h
+
+1461417302 source:/home/pi/gateway/sysinit.c
+	<stdio.h>
+	<wiringPi.h>
+	"sysinit.h"
+	"interrupt.h"
+
+1462716217 source:/home/pi/gateway/socket.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<pthread.h>
+	"makeJson.h"
+	"socket.h"
+
+1462715725 /home/pi/gateway/makeJson.h
+
+1462717443 source:/home/pi/gateway/makeJson.c
+	"cJSON.h"
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1461845441 /home/pi/gateway/cJSON.h
+	<sys/types.h>
+
+1461844601 source:/home/pi/gateway/cJSON.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1462449276 /home/pi/gateway/socket.h
+
+1462784675 source:/home/pi/Documents/gateway/cJSON.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1462784675 /home/pi/Documents/gateway/cJSON.h
+	<sys/types.h>
+
+1463397363 source:/home/pi/Documents/gateway/interrupt.c
+	<stdio.h>
+	<wiringPi.h>
+	<pthread.h>
+	<stdlib.h>
+	"sysinit.h"
+	"interrupt.h"
+	"thread.h"
+
+1462784675 /home/pi/Documents/gateway/interrupt.h
+
+1462784675 /home/pi/Documents/gateway/thread.h
+
+1463215083 source:/home/pi/Documents/gateway/main.c
+	<wiringPi.h>
+	<stdlib.h>
+	"sysinit.h"
+	"makeJson.h"
+	"resolveJson.h"
+
+1462784675 /home/pi/Documents/gateway/sysinit.h
+
+1463213157 /home/pi/Documents/gateway/makeJson.h
+	"cJSON.h"
+
+1463214960 source:/home/pi/Documents/gateway/makeJson.c
+	"cJSON.h"
+	"makeJson.h"
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<stdlib.h>
+	<string.h>
+
+1463386178 source:/home/pi/Documents/gateway/socket.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<pthread.h>
+	"makeJson.h"
+	"resolveJson.h"
+	"socket.h"
+
+1463302038 /home/pi/Documents/gateway/socket.h
+
+1463387522 source:/home/pi/Documents/gateway/sysinit.c
+	<stdio.h>
+	<wiringPi.h>
+	"sysinit.h"
+	"interrupt.h"
+
+1463307858 source:/home/pi/Documents/gateway/thread.c
+	"thread.h"
+	"cJSON.h"
+	"makeJson.h"
+	"base64StringEncoder.h"
+	"readWav.h"
+	"socket.h"
+	<stdio.h>
+	<pthread.h>
+	<time.h>
+	<sched.h>
+	<stdlib.h>
+
+1463401299 /home/pi/Documents/gateway/resolveJson.h
+	"wgetDownload.h"
+
+1463402864 source:/home/pi/Documents/gateway/resolveJson.c
+	"cJSON.h"
+	"resolveJson.h"
+	"wgetDownload.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1463402488 source:/home/pi/Documents/gateway/wgetDownload.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	"wgetDownload.h"
+
+1463402230 /home/pi/Documents/gateway/wgetDownload.h
+
+1463220114 source:/home/pi/Documents/gateway/base64StringEncoder.c
+	<stdio.h>
+	<string.h>
+	"base64StringEncoder.h"
+
+1463220115 /home/pi/Documents/gateway/base64StringEncoder.h
+
+1463215389 source:/home/pi/Documents/gateway/md5.c
+	<memory.h>
+	"md5.h"
+
+1463215389 /home/pi/Documents/gateway/md5.h
+
+1463307739 source:/home/pi/Documents/gateway/readWav.c
+	<stdio.h>
+	<string.h>
+	"readWav.h"
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdlib.h>
+
+1463307702 /home/pi/Documents/gateway/readWav.h
+
+1463403918 source:/home/pi/project/gateway/cJSON.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463403926 /home/pi/project/gateway/cJSON.h
+	<sys/types.h>
+
+1463403922 source:/home/pi/project/gateway/main.c
+	<wiringPi.h>
+	<stdlib.h>
+	"sysinit.h"
+	"makeJson.h"
+	"resolveJson.h"
+
+1463737240 /home/pi/project/gateway/sysinit.h
+
+1463698194 /home/pi/project/gateway/makeJson.h
+	"cJSON.h"
+
+1464189580 /home/pi/project/gateway/resolveJson.h
+	"wgetDownload.h"
+
+1463736906 /home/pi/project/gateway/wgetDownload.h
+
+1463403914 source:/home/pi/project/gateway/md5.c
+	<memory.h>
+	"md5.h"
+
+1463403920 /home/pi/project/gateway/md5.h
+
+1464162588 source:/home/pi/project/gateway/base64StringEncoder.c
+	<stdio.h>
+	<string.h>
+	"base64StringEncoder.h"
+
+1463697976 /home/pi/project/gateway/base64StringEncoder.h
+
+1463690176 source:/home/pi/project/gateway/readWav.c
+	<stdio.h>
+	<string.h>
+	"readWav.h"
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	<stdlib.h>
+
+1463690030 /home/pi/project/gateway/readWav.h
+
+1464163108 source:/home/pi/project/gateway/socket.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<pthread.h>
+	"makeJson.h"
+	"resolveJson.h"
+	"socket.h"
+
+1464188862 /home/pi/project/gateway/socket.h
+
+1464163593 source:/home/pi/project/gateway/sysinit.c
+	<stdio.h>
+	<wiringPi.h>
+	<unistd.h>
+	"sysinit.h"
+	"interrupt.h"
+
+1464189046 /home/pi/project/gateway/interrupt.h
+
+1464162745 source:/home/pi/project/gateway/thread.c
+	"thread.h"
+	"cJSON.h"
+	"makeJson.h"
+	"base64StringEncoder.h"
+	"readWav.h"
+	"socket.h"
+	<stdio.h>
+	<pthread.h>
+	<sched.h>
+	<stdlib.h>
+
+1463697904 /home/pi/project/gateway/thread.h
+
+1464162852 source:/home/pi/project/gateway/interrupt.c
+	<stdio.h>
+	<wiringPi.h>
+	<pthread.h>
+	<stdlib.h>
+	"sysinit.h"
+	"interrupt.h"
+	"thread.h"
+
+1464162964 source:/home/pi/project/gateway/resolveJson.c
+	"cJSON.h"
+	"resolveJson.h"
+	"wgetDownload.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
